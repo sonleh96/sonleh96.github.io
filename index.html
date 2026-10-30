@@ -4,7 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Son H. Le</title>
-<meta name="description" content="Son H. Le builds machine learning that institutions act on: credit and customer models for a bank, planning tools for governments, and satellite imagery research for a development bank.">
+<meta name="description" content="Research Scientist at the Asian Development Bank working on generative computer vision, including Sen4x. Previously at the World Bank and Techcombank.">
+<link rel="canonical" href="https://sonleh96.github.io/">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://sonleh96.github.io/">
+<meta property="og:title" content="Son H. Le">
+<meta property="og:description" content="Research Scientist at the Asian Development Bank working on generative computer vision, including Sen4x. Previously at the World Bank and Techcombank.">
+<meta property="og:image" content="https://sonleh96.github.io/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Portrait of Son H. Le beside the title Research Scientist, Applied AI.">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..800;1,400..600&display=swap">
@@ -243,6 +255,7 @@ footer { margin-top: 96px; padding-block: 24px 40px; border-top: 1px solid var(-
           <div><dt>8</dt><dd>downstream tasks</dd></div>
         </dl>
         <ul class="links">
+          <li><a href="https://sonleh96.github.io/task-tunable-sr/" target="_blank" rel="noopener">Project page &nearr;</a></li>
           <li><a href="https://doi.org/10.1109/JSTARS.2026.3674579" target="_blank" rel="noopener">Phase 1 paper &nearr;</a></li>
           <li><a href="https://github.com/ADB-Data-Division/sen4x" target="_blank" rel="noopener">Code &nearr;</a></li>
         </ul>
@@ -284,7 +297,10 @@ footer { margin-top: 96px; padding-block: 24px 40px; border-top: 1px solid var(-
       <li class="pub">
         <p class="pub-title">Beyond pretty pictures at global scale: task-tunable super-resolution of Sentinel-2 imagery</p>
         <p class="pub-meta">Retnanto, A., Mueller, S., <b>Le, S.</b>, Schindler, K., &amp; Iddawela, Y. In preparation, 2026.</p>
-        <ul class="links"><li><button class="textbtn" type="button" aria-expanded="false" aria-controls="abs-0">Abstract</button></li></ul>
+        <ul class="links">
+          <li><a href="https://sonleh96.github.io/task-tunable-sr/" target="_blank" rel="noopener">Project page</a></li>
+          <li><button class="textbtn" type="button" aria-expanded="false" aria-controls="abs-0">Abstract</button></li>
+        </ul>
         <p class="abstract" id="abs-0" hidden>A two-stage system that lets users set the balance between faithful and sharp super-resolution at inference time. A fusion stage combines eight Sentinel-2 revisits into a 2.5&nbsp;m image. A diffusion transformer then adds texture, starting from a noised copy of that image, and the noise level sets how much of it is kept. Trained on 1.8 million Sentinel-2/Satellogic pairs from 123 countries and tested on eight downstream tasks, it beats SATLAS and LDSR-S2 on 77,428 held-out scenes while hallucinating less on average.</p>
       </li>
       <li class="pub">
@@ -297,7 +313,7 @@ footer { margin-top: 96px; padding-block: 24px 40px; border-top: 1px solid var(-
           <li><a href="https://github.com/ADB-Data-Division/sen4x" target="_blank" rel="noopener">Code</a></li>
           <li><button class="textbtn" type="button" aria-expanded="false" aria-controls="abs-1">Abstract</button></li>
         </ul>
-        <p class="abstract" id="abs-1" hidden>Sen4x combines single-image and multi-image super-resolution. It fuses repeated Sentinel-2 acquisitions of the same place with a prior learned from very high-resolution Pl&eacute;iades Neo imagery, and outputs 2.5&nbsp;m imagery. We evaluate it on urban land-cover classification in Hanoi instead of on visual quality alone, where it clearly beats state-of-the-art super-resolution baselines. The title is the point: images that only look sharper can produce worse segmentations.</p>
+        <p class="abstract" id="abs-1" hidden>Sen4x combines single-image and multi-image super-resolution. It fuses repeated Sentinel-2 acquisitions of the same place with a prior learned from very high-resolution Pl&eacute;iades Neo imagery, and outputs 2.5&nbsp;m imagery. We evaluate it on a downstream mapping task instead of on visual quality alone, where it beats state-of-the-art super-resolution baselines. The title is the point: images that only look sharper can produce worse maps.</p>
       </li>
       <li class="pub">
         <p class="pub-title"><a href="https://www.nature.com/articles/s41598-026-75454-8" target="_blank" rel="noopener">Air pollution and rice crop health: evidence from Vietnam&rsquo;s Mekong Delta</a></p>
